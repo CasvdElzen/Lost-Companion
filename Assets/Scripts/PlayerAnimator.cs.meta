@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5d024cc73ad207e438a7a1d777842e0e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - jumpFX: {fileID: 3234584074981126610, guid: ef64e6572022fbb47969c1618d73ef20, type: 3}
+  - landFX: {fileID: 3234584074981126610, guid: 0618e2f871341254cafc1ffc33fc18df, type: 3}
+  - Jump: {instanceID: 0}
+  - HitGround: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

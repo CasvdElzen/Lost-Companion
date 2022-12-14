@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 3ff3047a08addcf48af4dbe37b4aca5d
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Awe Mono Gold
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 3a0e99b8e05495046922a203b302e94d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
