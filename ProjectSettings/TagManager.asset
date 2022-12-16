@@ -11,6 +11,7 @@ TagManager:
   - Selector
   - QuitButton
   - Music
+  - NextLevel
   layers:
   - Default
   - TransparentFX
