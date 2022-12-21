@@ -12,6 +12,9 @@ TagManager:
   - QuitButton
   - Music
   - NextLevel
+  - Boom
+  - Portal
+  - Portals
   layers:
   - Default
   - TransparentFX

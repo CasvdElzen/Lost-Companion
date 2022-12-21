@@ -11,10 +11,14 @@ public class Dead : MonoBehaviour
     public Animator transition;
     public Animator transition1;
 
-
+    
     private Rigidbody2D rb;
+
+
     public void OnTriggerEnter2D(Collider2D collision)
     {
+        
+
         if (collision.gameObject.CompareTag("KillZone"))
         {
             transition1.SetTrigger("SceneDie");
@@ -33,8 +37,7 @@ public class Dead : MonoBehaviour
 
             yield return new WaitForSeconds(3.65f);
 
-
-            SceneManager.LoadScene("Demo");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
 
 

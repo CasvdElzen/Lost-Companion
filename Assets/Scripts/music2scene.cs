@@ -5,6 +5,8 @@ using UnityEngine;
 public class music2scene : MonoBehaviour
 {
     private AudioSource _audioSource;
+
+
     private void Awake()
     {
         DontDestroyOnLoad(gameObject);

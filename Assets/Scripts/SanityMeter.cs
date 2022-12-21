@@ -55,7 +55,7 @@ public class SanityMeter : MonoBehaviour
         Deadd.Play();
         Deaddd.Play();
         yield return new WaitForSeconds(5f);
-        SceneManager.LoadScene("Demo");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
 
