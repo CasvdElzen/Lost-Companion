@@ -14,7 +14,7 @@ public class Dead : MonoBehaviour
     
     private Rigidbody2D rb;
 
-
+    
     public void OnTriggerEnter2D(Collider2D collision)
     {
         
@@ -27,14 +27,16 @@ public class Dead : MonoBehaviour
             rb = GetComponent<Rigidbody2D>();
             rb.bodyType = RigidbodyType2D.Static;
             StartCoroutine(Dying());
-            
+
+            GetComponent<PlayerAnimator>().enabled = false;
+
         }
 
         IEnumerator Dying()
         {
             Deadd.Play();
             Deaddd.Play();
-
+           
             yield return new WaitForSeconds(3.65f);
 
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);

@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: _Demo 1
   m_EditorClassIdentifier: 
   camSize: 8
-  backgroundColor: {r: 0.23137255, g: 0.23529412, b: 0.29411766, a: 1}
-  foregroundColor: {r: 0.047058824, g: 0.039215688, b: 0.11372549, a: 1}
+  backgroundColor: {r: 0, g: 0, b: 0, a: 1}
+  foregroundColor: {r: 0.42745098, g: 0.42745098, b: 0.42745098, a: 1}
